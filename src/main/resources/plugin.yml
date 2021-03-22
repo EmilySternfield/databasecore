@@ -1,0 +1,14 @@
+name: DatabaseCore
+version: ${project.version}
+main: me.lena0009.databasecore.DatabaseCore
+api-version: 1.16
+load: STARTUP
+
+commands:
+  pay:
+    description: pay another your money
+  balance:
+    description: check your balance
+    aliases: [bal]
+  withdraw:
+    description: withdraw ur money to item form
